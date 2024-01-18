@@ -1,0 +1,138 @@
+# import = ["/Users/noah/.config/alacritty/catppuccin/catppuccin-mocha.yml"]
+live_config_reload = true
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 13.0
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 0
+
+[[keyboard.bindings]]
+chars = "\u0001"
+key = "Left"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0005"
+key = "Right"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0017"
+key = "Back"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u0015"
+key = "Back"
+mods = "Command"
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[window]
+decorations_theme_variant = "Dark"
+dynamic_title = true
+startup_mode = "Maximized"
+
+[window.dimensions]
+columns = 135
+lines = 50
+
+# colors here !!!
+[colors.primary]
+background = "#2B2D36"
+foreground = "#CCD3F2"
+dim_foreground = "#CCD3F2"
+bright_foreground = "#CCD3F2"
+
+[colors.cursor]
+text = "#1D1F25"
+cursor = "#C4A4F1"
+
+[colors.vi_mode_cursor]
+text = "#1D1F25"
+cursor = "#A37EF1"
+
+[colors.search.matches]
+foreground = "#1D1F25"
+background = "#9FA4BF"
+
+[colors.search.focused_match]
+foreground = "#1D1F25"
+background = "#ADEDE9"
+
+[colors.footer_bar]
+foreground = "#1D1F25"
+background = "#9FA4BF"
+
+[colors.hints.start]
+foreground = "#1D1F25"
+background = "#7BC2F1"
+
+[colors.hints.end]
+foreground = "#1D1F25"
+background = "#9FA4BF"
+
+[colors.selection]
+text = "#1D1F25"
+background = "#A3DBF8"
+
+[colors.normal]
+black = "#1D1F25" ## Vorder- UND Hintergrund!!!
+red = "#6C8EE1" ## Hintergrund von "1 x" und "TSTP x" 
+green = "#7BC2F1" ## Hintergrund von "main" und Vordergrund Haken
+yellow = "#ADEDE9" ## Hintergrund von "6s" UND Vordergrund "TSTP x"
+blue = "#7E7ED7" ## Hintergrund von "base" und "~/.config..." => schwarzer und weißer VG!!!
+magenta = "#A3DBF8" ## ???
+cyan = "#C4A4F1" ## Vordergrund Zahnrad
+white = "#CCD3F2" ## Vorder- UND Hintergrund!!!
+
+[colors.bright]
+black = "#1D1F25" ## background
+red = "#6C8EE1" ## background darker
+green = "#7BC2F1" ## text
+yellow = "#ADEDE9" ## text darker
+blue = "#7E7ED7" ## accent 1
+magenta = "#A3DBF8" ## accent 2
+cyan = "#C4A4F1" ## accent 3
+white = "#CCD3F2" ## accent 4
+
+[colors.dim]
+black = "#1D1F25" ## accent 5
+red = "#6C8EE1" ## accent 6
+green = "#7BC2F1" ## accent 7
+yellow = "#ADEDE9"
+blue = "#7E7ED7"
+magenta = "#A3DBF8"
+cyan = "#C4A4F1"
+white = "#CCD3F2"
+
+[[colors.indexed_colors]]
+index = 16
+color = "#A37EF1"
+
+[[colors.indexed_colors]]
+index = 17
+color = "#C4A4F1"
